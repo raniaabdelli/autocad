@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<ambom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileName>file.xml</FileName>
+  <MAVer>3.0.9.0</MAVer>
+  <WorkSpaceId>0</WorkSpaceId>
+  <DmsId>1234</DmsId>
+  <assemblies>
+    <assembly>
+      <RefId>{42F9E138-53ED-4043-881A-CF3F3A09B77D}</RefId>
+      <Name>Autodesk® AutoCAD® 2020</Name>
+      <UnitType>PRD - Product</UnitType>
+      <State />
+      <Description>Autodesk® AutoCAD® 2020</Description>
+      <Category />
+      <Upi2 dataFileType="ini" dataTarget="$root\Setup.ini" dataSection="SETUP" dataKey="UPI2">{1DF758C8-3B22-414A-985A-829EE708926B}</Upi2>
+      <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+      <BuildNumber dataFileType="msi" dataSrc="$root\x64\fr-fr\acad\AcadPS\AcadPS.msi" dataKey="ProductVersion">23.1.47.0</BuildNumber>
+      <ProductLine>ACD</ProductLine>
+      <Version>2020</Version>
+      <SubRelease>0</SubRelease>
+      <ShortcutName />
+      <Platform>WIN64 - Windows 64-bit</Platform>
+      <Language>fr - French</Language>
+      <Locked>NA</Locked>
+      <Upi1MasterId>NA</Upi1MasterId>
+      <SetupIniSection>SETUP</SetupIniSection>
+      <PackageTarget />
+      <assemblies>
+        <assembly>
+          <RefId>{28B89EEF-3001-040C-1102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk® AutoCAD® 2020 Language Core</Name>
+          <UnitType>LP - Language Pack</UnitType>
+          <State />
+          <Description>Autodesk® AutoCAD® 2020 Language Core</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\fr-fr\acad\AcadLP\AcadLP.msi" dataKey="UPI2" rootFeature="P" componentCondition="">{03C3C501-8204-47AF-96FA-29CB05501843}</Upi2>
+          <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\fr-fr\acad\AcadLP\AcadLP.msi" dataKey="ProductVersion">23.1.47.0</BuildNumber>
+          <ProductLine>ACD</ProductLine>
+          <Version>2020</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>fr - French</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-3001-040C-1102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACAD_LP</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+        <assembly>
+          <RefId>{28B89EEF-3001-0000-3102-CF3F3A09B77D}</RefId>
+          <Name>Autodesk AutoCAD 2020</Name>
+          <UnitType>APP - Application</UnitType>
+          <State />
+          <Description>Autodesk AutoCAD 2020</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\ACADPRIVATE\AcadPrivate.msi" dataKey="UPI2" rootFeature="P" componentCondition="">{647623B9-2B0D-467C-96FE-36DB98D1C4CE}</Upi2>
+          <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\ACADPRIVATE\AcadPrivate.msi" dataKey="ProductVersion">23.1.47.0</BuildNumber>
+          <ProductLine>ACD</ProductLine>
+          <Version>2020</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>{28B89EEF-3001-0000-3102-CF3F3A09B77D}</Upi1MasterId>
+          <SetupIniSection>ACADPV</SetupIniSection>
+          <PackageTarget />
+          <assemblies>
+            <assembly>
+              <RefId>{28B89EEF-3001-0000-0102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® 2020 Core</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® 2020 Core</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\acad\acad.msi" dataKey="UPI2" rootFeature="P" componentCondition="">{1C65F4C9-A83A-468B-AF91-2A0E63B72183}</Upi2>
+              <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\acad\acad.msi" dataKey="ProductVersion">23.1.47.0</BuildNumber>
+              <ProductLine>ACD</ProductLine>
+              <Version>2020</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-3001-0000-0102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACAD</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-3004-0000-5102-CF3F3A09B77D}</RefId>
+              <Name>ACA &amp; MEP 2020 Object Enabler</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>ACA &amp; MEP 2020 Object Enabler</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\ACAOE\AcaOE.msi" dataKey="UPI2" rootFeature="dummy">{75FAF2C4-518D-44D2-8709-85D47B5987C3}</Upi2>
+              <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\ACAOE\AcaOE.msi" dataKey="ProductVersion">8.2.45.0</BuildNumber>
+              <ProductLine>ARCHDESK</ProductLine>
+              <Version>2020</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName />
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>NA - Language Independent</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>NA</Upi1MasterId>
+              <SetupIniSection>ACAOE</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+            <assembly>
+              <RefId>{28B89EEF-3001-040C-2102-CF3F3A09B77D}</RefId>
+              <Name>Autodesk® AutoCAD® 2020</Name>
+              <UnitType>COM - Component</UnitType>
+              <State />
+              <Description>Autodesk® AutoCAD® 2020</Description>
+              <Category />
+              <Upi2 dataFileType="msi" dataTarget="$root\x64\fr-fr\acad\AcadPS\AcadPS.msi" dataKey="UPI2" rootFeature="P" componentCondition="">{3C07C8DE-1607-4B79-AA18-CAECC68B71E9}</Upi2>
+              <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+              <BuildNumber dataFileType="msi" dataSrc="$root\x64\fr-fr\acad\AcadPS\AcadPS.msi" dataKey="ProductVersion">23.1.47.0</BuildNumber>
+              <ProductLine>ACD</ProductLine>
+              <Version>2020</Version>
+              <SubRelease>0</SubRelease>
+              <ShortcutName>AutoCAD 2020 - Français (French)\AutoCAD 2020 - Français (French).lnk</ShortcutName>
+              <Platform>WIN64 - Windows 64-bit</Platform>
+              <Language>fr - French</Language>
+              <Locked>NA</Locked>
+              <Upi1MasterId>{28B89EEF-3001-040C-2102-CF3F3A09B77D}</Upi1MasterId>
+              <SetupIniSection>ACAD_MAIN</SetupIniSection>
+              <PackageTarget />
+            </assembly>
+          </assemblies>
+        </assembly>
+        <assembly>
+          <RefId>{E3807FC8-DD0A-4D6D-89E9-EAADE00C845C}</RefId>
+          <Name>Autodesk Single Sign-On</Name>
+          <UnitType>COM - Component</UnitType>
+          <State />
+          <Description>Autodesk Single Sign-On</Description>
+          <Category />
+          <Upi2 dataFileType="msi" dataTarget="$root\x64\AdSSO\AdSSO.msi" dataKey="UPI2" rootFeature="dummy">{86FAA03C-31B6-4228-8335-9908B3FBA3C8}</Upi2>
+          <BuildDate>9/4/2019 2:13:28 PM</BuildDate>
+          <BuildNumber dataFileType="msi" dataSrc="$root\x64\AdSSO\AdSSO.msi" dataKey="ProductVersion">10.22.00.1800</BuildNumber>
+          <ProductLine>ADSSO</ProductLine>
+          <Version>2020</Version>
+          <SubRelease>0</SubRelease>
+          <ShortcutName />
+          <Platform>WIN64 - Windows 64-bit</Platform>
+          <Language>NA - Language Independent</Language>
+          <Locked>NA</Locked>
+          <Upi1MasterId>WIN64</Upi1MasterId>
+          <SetupIniSection>ADSSO</SetupIniSection>
+          <PackageTarget />
+        </assembly>
+      </assemblies>
+    </assembly>
+  </assemblies>
+</ambom>
